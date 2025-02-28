@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./app/dist/",
+    "rootDir": "./app/src",
+    "sourceMap": true,
+    "baseUrl": ".",
+  },
+  "include": ["app/src/**/*.ts", "app/src/**/*.json"],
+}

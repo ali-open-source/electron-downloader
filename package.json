@@ -4,13 +4,13 @@
   "scripts": {
     "ng": "ng",
     "serve": "ng serve",
-    "prebuild": "tsc",
+    "prestart": "tsc -p tsconfig.electron.json",
     "build": "ng build",
     "start": "ng build --base-href ./ && electron .",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
-  "main": "app/main.js",
+  "main": "app/dist/main.js",
   "private": true,
   "dependencies": {
     "@angular/common": "^19.2.0",

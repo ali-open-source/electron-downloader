@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/electron-downloader",
+            "outputPath": "app/dist/electron-downloader",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
